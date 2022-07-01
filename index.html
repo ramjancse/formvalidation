@@ -71,20 +71,21 @@
                       <div id="emailValidText" class=""> </div>
                       <div id="emailValidRegex" class=""> </div>
                       <div class="row">
-                        <div class="input-field col s9">
+                        <div class="input-field col s6">
                           <input
                             id="password"
-                            type="password"
+                            type="text"
                             class="validate"
                             name="password"
                           />
                           <label for="password"> Password </label>
                         </div>
-                        <div class="input-field col s3">
+                        
+                        <div class="input-field col s6">
                           <a
                             class="waves-effect waves-light btn"
                             id="btnPassword"
-                            >button</a
+                            > Generate Password</a
                           >
                         </div>
                       </div>
@@ -100,6 +101,7 @@
                           <label for="phonenumber"> Phone Number </label>
                         </div>
                       </div>
+                      <div id="phoneNumberValidate" class=""> </div>
                       <div class="row">
                         <div class="input-field col s12">
                           <input
@@ -111,28 +113,42 @@
                           <label for="slug"> Slug </label>
                         </div>
                       </div>
+                      <div id="slugValidate" class=""> </div>
                       <div class="row">
                         <div class="input-field col s12">
                           <input id="url" type="text" class="validate" name="url"/>
                           <label for="url"> Web URL </label>
                         </div>
                       </div>
+                      <div id="urlValidate" class=""> </div>
                       <div class="row">
-                        <div class="input-field col s12">
+                        <div class="input-field col s6">
                           <input
                             type="submit"
                             class="waves-effect waves-light btn"
                             value="Submit"
                           />
-                        </div>
+                      </div>
+                      <div class="input-field col s6">
+                        <input
+                          type="reset"
+                          class="waves-effect waves-light btn"
+                          value="Reset"
+                        />
                       </div>
                     </form>
+                    <div  class="row">
+                      <div class="col s12" id="result">
+          
+                      </div>
+                    </div>
                   </div>
                 </div>
               </form>
               </div>
             </div>
           </div>
+         
         </div>
       </div>
     </div>
